@@ -1,0 +1,194 @@
+.bar {
+  background-color: #7297db;
+  overflow: hidden;
+  padding: 10px 124px;
+}
+
+.bar .button {
+  float: right;
+  color: white;
+  background-color: #2a2e374f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+
+  border-radius: 15px;
+}
+
+.Vi {
+  margin: 0px 0px 0px 24px;
+}
+
+.En {
+  margin: 0px 24px;
+}
+
+.bar .active {
+  background-color: #1f4690;
+}
+
+.vertival-line {
+  border-left: 3px solid white;
+  height: 48px;
+  float: right;
+}
+
+.blank {
+  padding: 32px 0px;
+  background-color: white;
+}
+
+.title {
+  color: white;
+  background-image: linear-gradient(to right, #1f4690, #7297db);
+  text-align: center;
+}
+
+.title h1 {
+  padding: 19px 0px 0px 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.title h5 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding: 0px 0px 30px 0px;
+}
+
+.manga_def h4 {
+  padding: 64px 128px 0px 128px;
+  display: block;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.manga_def p {
+  padding: 24px 128px 95px 128px;
+  display: block;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.manga_def img {
+  display: block;
+  object-fit: cover;
+
+  height: 488px;
+  /* width: 1188px; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 128px 56px 128px;
+}
+
+.manga-recommend {
+  background-color: #1f4690;
+  color: white;
+  padding: 64px 128px 200px 128px;
+}
+
+.manga-recommend h4 {
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.manga-recommend p {
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  padding: 16px 0px;
+}
+
+.manga-recommend button {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #00000036;
+  border-radius: 15px;
+  border: none;
+  background-color: #7297db;
+  padding: 14px 24px;
+  margin: 60px 48px 0px 0px;
+}
+
+.manga-recommend .active {
+  color: white;
+}
+
+.tab-contents {
+  /* float: inherit; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #7297db;
+  border-radius: 15px;
+  border: none;
+  padding: 64px 32px;
+  margin-top: 40px;
+}
+
+.tab-contents h5 {
+  display: inline-block;
+  height: 76px;
+  text-align: center;
+  inline-size: 100%;
+  overflow-wrap: break-word;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0px 0px 32px 0px;
+}
+
+.tab-contents .content {
+  width: 29%;
+  padding: 27px;
+}
+
+.tab-contents img {
+  height: 332px;
+  width: 100%;
+  object-fit: cover;
+}
+
+body {
+  margin: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+  font-size: 119px;
+}
+
+h2 {
+  font-size: 84px;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+h4 {
+  font-size: 42px;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 21px;
+}
